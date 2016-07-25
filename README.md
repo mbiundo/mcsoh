@@ -3,7 +3,7 @@ Power System State of Health from Morningstar MPPT-15L Solar Controller
 #---------------------------------------------------------------
 # Marc Biundo 6/1/16 
 # Version 8.3
-# This program is desinged to facilitate communications with multiple Morningstar SunSaver MPPT Solar Controlers Remotely via TCP/IP.
+# This program is designed to facilitate communications with multiple Morningstar SunSaver MPPT Solar Controlers Remotely via TCP/IP.
 # The goal is to provide SOH power system monitioring, and provide historical trending to assess battery performance and sizing. 
 # We may be able to anticipate failures of battery systems and help schedule preventitive maintenance for battery banks.
 # The MPPT requires a MorningStar Serial MSC.
