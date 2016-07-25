@@ -838,7 +838,7 @@ while True:#Always on Loop to cycle.
         %d:%d:%d:%d:%d:%d:%d:%d:%d:%d:\
         %d:%d:%d:%d:%d:%d:%d:%d:%d:%d:\
         %d:%d:%d:%d:%d:%d:%d:%d:%d:%d:\
-        %d:%d:%d:%d:%d'\
+        %d:%d:%d:%d:%d:%f'\
         % (int(params[0]),int(params[1]) ,int(params[2]) ,int(params[3]) ,int(params[4]) ,int(params[5]) ,\
         int(params[6]) ,int(params[7]) ,int(params[8]) , int (params[9]), int (params[10]) , \
         int(params[11]) ,int(params[12]) ,int(params[13]) , int (params[14]), int (params[15]) , \
@@ -847,7 +847,7 @@ while True:#Always on Loop to cycle.
         int(params[26]) ,int(params[27]) ,int(params[28]) , int (params[29]), int (params[30]) , \
         int(params[31]) ,int(params[32]) ,int(params[33]) , int (params[34]), int (params[35]) , \
         int(params[36]) ,int(params[37]) ,int(params[38]) , int (params[39]), int (params[40]) , \
-        int(params[41]) ,int(params[42]) ,int(params[43]) , int (params[44]) )); 
+        int(params[41]) ,int(params[42]) ,int(params[43]) , int (params[44]), Comm_Duration )); 
     
         if ret:
             print rrdtool.error()
